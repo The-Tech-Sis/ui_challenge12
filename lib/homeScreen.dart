@@ -69,11 +69,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left:20.0),
+            const Padding(
+              padding: EdgeInsets.only(left:20.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const[
+                children: [
                   Text("Hi Teresa G!",
                     style: TextStyle(
                       fontSize: 30,
@@ -196,11 +196,11 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             
-            Padding(
-              padding: const EdgeInsets.all(20.0),
+            const Padding(
+              padding: EdgeInsets.all(20.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                  Text("The most searched chair",
                     style: TextStyle(
                           fontSize: 20,
@@ -239,9 +239,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Column(
+                                    const Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: const[
+                                      children: [
                                         Text("Grey chair",
                                           style: TextStyle(
                                             fontSize: 12,
@@ -297,9 +297,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Column(
+                                    const Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: const[
+                                      children: [
                                         Text("Black chair",
                                           style: TextStyle(
                                             fontSize: 12,
@@ -338,11 +338,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
-              Padding(
-                padding: const EdgeInsets.all(20.0),
+              const Padding(
+                padding: EdgeInsets.all(20.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                    Text("Recommended chair For You",
                       style: TextStyle(
                         fontSize: 20,
